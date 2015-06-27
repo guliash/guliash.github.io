@@ -1,0 +1,11 @@
+# Site settings
+title: Guliash's blog
+email: guliash92@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Guliash's blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://guliash.github.io/" # the base hostname & protocol for your site
+github_username:  guliash
+
+# Build settings
+markdown: kramdown
