@@ -1,10 +1,16 @@
-# Site settings
-title: Guliash's blog
-description: > # this means to ignore newlines until "baseurl:"
-  Guliash's blog
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://guliash.github.io/" # the base hostname & protocol for your site
-github_username:  guliash
+name: guliash.github.io
+#description: Blogging about stuffs
+#meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-# Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+#domain_name: 'http://github.io'
+google_analytics: 'UA-XXXXXXXX-X'
+
+# Details for the RSS feed generator
+url:            'guliash.github.io'
+author:         'Artem Gilmudinov'
+encoding: utf-8
